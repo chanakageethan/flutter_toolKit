@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'components/bottom_nav_bar/main_screen_with_nav_bar.dart';
 import 'components/flutter_zoom_drawer.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -35,10 +36,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     context,
                     MaterialPageRoute(
                         builder: (context) =>
-                            const FlutterZoomDrawerComponent()),
+                            const MainScreenWithNavBar()),
                   );
                 },
-                child: const Text("Component"))
+                child: const Text("Bottom Nav Bar"))
           ],
         ),
       ),
