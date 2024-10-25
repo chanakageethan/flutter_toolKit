@@ -12,7 +12,7 @@ class _NavBarScreen1State extends State<NavBarScreen1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(child: Text("Screen 1"),),
+      body: Center(child: Container(child: Text("Screen 1"),)),
     );
   }
 }
